@@ -1,0 +1,16 @@
+body {
+  padding: 70px 15px 20px 245px;
+}
+
+.side-nav {
+	position: fixed;
+	left: 0px;
+	top: 50px;
+	height: 100%;
+    width: 230px;
+	background: #222222;
+
+	li {
+		width: 100%;
+	}
+}

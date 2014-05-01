@@ -1,0 +1,8 @@
+<h1>Nowa podstrona</h1>
+
+<%= form_for :page, url: admin_page_index_path do |f| %>
+
+	<%= f.text_field :title, :placeholder => "Tytuł podstrony" %>
+	<%= f.text_area :text, :placeholder => "Treść podstrony" %>
+	<%= f.submit "Wyślij" %>
+<% end %>

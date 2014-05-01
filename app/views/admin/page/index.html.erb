@@ -1,1 +1,11 @@
-<h1>Główna</h1>
+<h1>Lista podstron</h1>
+<%= link_to("Dodaj podstronę", new_admin_page_path) %>
+
+<% @pages.each_with_index do |page, index| %>
+	
+	<div class="row">
+		<div class="col-lg-6"><%= page.title %></div>
+		<div class="col-lg-6"><%= page.text %></div>
+	</div>
+	
+<% end %>
